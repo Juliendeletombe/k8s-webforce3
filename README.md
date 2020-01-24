@@ -105,7 +105,20 @@
 #k get po -L system (permet de voir meme les pod isolé, ce que la commande k get rs ne donne pas)
 #kebectl describe po rs-one-dfsbk | grep Image: 
 
+..........
 
+#       shell script
+
+#k create -f curl.yaml -n kube-public
+#k create -f frontend.yaml
+#k create -f webapp-service.yaml
+#chmod +x curl-test.sh
+#./curl-test.sh
+## ouvrir un second shell pour modifier l'objet deployment k8s directement
+#k edit deploy
+#kubectl rollout status deployment/frontend (etat du deploiment frontend)
+#kubectl rollout history deployment/frontend 
+#kubectl rollout undo deployment/frontend (undo permet de revenir a la version précedente)
 
 
 
