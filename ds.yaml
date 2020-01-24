@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      system: ReplicaOne
+      system: DaemmonSet
   template:
     metadata:
       name: rs-one

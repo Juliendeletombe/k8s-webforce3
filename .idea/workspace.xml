@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec26a090-7275-46a0-b8ba-7c304a226140" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-resource-range.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rs.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/second.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,7 +51,7 @@
       <workItem from="1579785891739" duration="531000" />
       <workItem from="1579786435033" duration="259000" />
       <workItem from="1579786707749" duration="9354000" />
-      <workItem from="1579796547981" duration="237000" />
+      <workItem from="1579796547981" duration="13130000" />
     </task>
     <servers />
   </component>
@@ -56,26 +63,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#Deployment/67.27.1853.1053@67.27.1853.1053" timestamp="1579796656420" />
-    <state x="588" y="214" width="800" height="677" key="#Notifications" timestamp="1579795350597">
+    <state x="588" y="214" width="800" height="677" key="#Notifications" timestamp="1579858741126">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="214" width="800" height="677" key="#Notifications/67.27.1853.1053@67.27.1853.1053" timestamp="1579795350597" />
+    <state x="588" y="214" width="800" height="677" key="#Notifications/67.27.1853.1053@67.27.1853.1053" timestamp="1579858741126" />
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579795540465">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579795540465" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579796508266">
+    <state x="676" y="280" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579857990216">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1579796508266" />
+    <state x="676" y="280" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579857990216" />
+    <state x="558" y="149" width="860" height="807" key="CommitChangelistDialog2" timestamp="1579874062386">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="558" y="149" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1579874062386" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579871578302">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1579871578302" />
+    <state x="831" y="447" width="315" height="210" key="Github.ShareDialog" timestamp="1579861853186">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="831" y="447" width="315" height="210" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579861853186" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1579796783849">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1579796783849" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579795281846">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579874065444">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1579795281846" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1579874065444" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579796548461">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -88,5 +107,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="889" y="286" key="ftp.server.browser/67.27.1853.1053@67.27.1853.1053" timestamp="1579786903098" />
+    <state x="763" y="420" width="450" height="265" key="git4idea.rebase.GitRebaseDialog" timestamp="1579861821103">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="763" y="420" width="450" height="265" key="git4idea.rebase.GitRebaseDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579861821103" />
   </component>
 </project>
