@@ -1,0 +1,171 @@
+    1  k get nodes
+    2  ls
+    3  kubectl create deployement nginx --image=nginx
+    4  ls
+    5  kubectl create deployment nginx --image=nginx
+    6  k get deployments
+    7  k describe deployments nginx
+    8  k get pod
+    9  k deletepod 86c57db685-9tlgj
+   10  k delete pod 86c57db685-9tlgj
+   11  k delete pod nginx-86c57db685-9tlgj
+   12  get pod
+   13  k get pod
+   14  k get events
+   15  k get nodes
+   16  k get events
+   17  ls
+   18  kubectl get node
+   19  kubectl get node -o wide:
+   20  k create deployment nginx --image=nginx
+   21  kubectl create deployment nginx --image=nginx
+   22  ls
+   23  k get node
+   24  kubectl get deployment nginx -o yaml > first.yaml
+   25  cd projet 
+   26  kubectl get deployment nginx -o yaml > first.yaml
+   27  ls
+   28  cd
+   29  ls
+   30  rm first.yaml
+   31  ls
+   32  cd projet
+   33  k get deployment nginx -o yaml > second.yaml
+   34  ls
+   35  diff k delete deployment nginx
+   36  k delete deployment nginx
+   37  k create -f first.yaml 
+   38  k get deployment nginx -o yaml > second.yaml
+   39  diff first.yaml second.yaml 
+   40  k get deployment nginx --export -o yaml
+   41  ls
+   42  expose -h
+   43  k expose -h
+   44  k expose deploymen/nginx
+   45  k expose deployment/nginx
+   46  kubectl expose deployment/nginx
+   47  CAT
+   48  kubectl expose deployment/nginx
+   49  k replace -f first.yaml 
+   50  cat first.yaml 
+   51  k replace -f first.yaml 
+   52  k getdeplo,pod
+   53  k get deplo,pod
+   54  k get deploy.pod
+   55  k get deploy,pod
+   56  k expose deployment/nginx
+   57  k get svc nginx
+   58  git push juliendeletombe
+   59  git push 
+   60  cluster ip
+   61  ip
+   62  get ip nginx
+   63  k get ip nginx
+   64  k getep nginx
+   65  k get ep nginx
+   66  curl 192.168.219.130:80
+   67  k get pod
+   68  k describe pod nginx-85ff79dd56-zcghd | grep node:
+   69  ls
+   70  k describe pod nginx-85ff79dd56-zcghd | grep Node:
+   71  k get pod -o wide
+   72  k scale deployment nginx --replicas=3
+   73  k get deploy nginx
+   74  k get ep nginx
+   75  k scale deployment nginx --replicas=0
+   76  get pod -o wide
+   77  k get pod -o wide
+   78  k scale deployment nginx --replicas=3
+   79  k get pod -o wide
+   80  k exec nginx-nginx-85ff79dd56-2w6hj -- printenv |grep KUBERNETES
+   81  k exec nginx-85ff79dd56-2w6hj -- printenv |grep KUBERNETES
+   82  k delete svc nginx
+   83  k expose deployment nginx --type=loadbalancer
+   84  k expose deployment nginx --type=loadBalancer
+   85  kubectl expose deployment nginx --type=loadBalancer
+   86  kubectl expose deployment nginx --type=LoadBalancer
+   87  K GET SVC
+   88  k get svc
+   89  k get svc
+   90  k get svc -A
+   91  kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}' )
+   92  git push
+   93  k get po 
+   94  k delete deployment
+   95  k delete deployment nginx
+   96  k get svc
+   97  k get ep
+   98  k get delete ep nginx
+   99  k delete ep nginx
+  100  k delete svc nginx
+  101  kubectl create deployment hog --image vish/stress
+  102  ls
+  103  k get deployment hog
+  104  k describe deployment hog
+  105  kebectl get deployment hog --export -o yaml > hog.yalm 
+  106  k get deployment hog 
+  107  k describe deployment hog
+  108  kebectl get deployment hog --export -o yaml > hog.yalm 
+  109  k get deployment hog --export -o yaml > hog.yalm 
+  110  cd
+  111  k get deployment hog --export -o yaml > hog.yalm 
+  112  k get deployment hog 
+  113  k describe deployment hog
+  114  (exit)
+  115  exit
+  116  kubectl create deployment hog --image vish/stress
+  117  k create deployment hog --image vish/stress
+  118  k get deployment hog
+  119  k describe deployment hog
+  120  kebectl get deployment hog --export -o yaml > hog.yalm 
+  121  cd projet
+  122  ls
+  123  cd projet
+  124  k get pod
+  125  k log hog-78cf7f9d64-pl4dt
+  126  get ep nginx
+  127  k get ep nginx
+  128  k get pod
+  129  k get pod -o wide
+  130  k get pods
+  131  k get pods -o wide
+  132  k delete deploy hog 
+  133  k create -f hog.yalm 
+  134  LS
+  135  ls
+  136  ll
+  137  delete hog.yalm
+  138  rm hog.yalm
+  139  ll
+  140  k replace -f hog.yam1
+  141  k get po
+  142  k delete deploy hog 
+  143  k create -f hog.yaml 
+  144  k get pod hog-7867569d4b-t2h27 
+  145  k get pod hog-7867569d4b-t2h27 -o wide
+  146  k get svc -A
+  147  kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}' )
+  148  ls
+  149  kubectl scale deployment hog -- replicas=10
+  150  kubectl scale deployment hog --replicas=10
+  151  kubectl scale deployment hog --replicas=4
+  152  kubectl scale deployment hog --replicas=3
+  153  k delete deploy hog
+  154  kubectl create namespace low-usage-limit
+  155  k get namespace
+  156  k --namespace=low-usage-limit create -f low-resource-range.yaml
+  157  k get namespace
+  158  ls
+  159  k --namespace=low-usage-limit create -f low-resource-range.yaml
+  160  k get LimitRange
+  161  k get LimitRange -A
+  162  k --namespace low-usage-limit create deployment limited-hog -- image vish/stress
+  163  k -n low-usage-limit create deployment limited-hog -- image vish/stress
+  164  k -n low-usage-limit create deployment limited-hog --image vish/stress
+  165  ll
+  166  k get -n 
+  167  k -n low-usage-limit get pods
+  168  ls 
+  169  k -n low-usage-limit get pod limited-hog-5c8d494fc5-6nr5n -o yaml
+  170  history 
+  171  history > commande_ide.txt

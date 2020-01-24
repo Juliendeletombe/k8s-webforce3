@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      system: DaemonSet
+      system: DaemonSetOne
   template:
     metadata:
       name: rs-one
       labels:
-        system: DaemonSet
+        system: DaemonSetOne
     spec:
       containers:
       - name: nginx
