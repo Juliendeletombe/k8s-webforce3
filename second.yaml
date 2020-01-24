@@ -3,15 +3,10 @@ kind: Deployment
 metadata:
   annotations:
     deployment.kubernetes.io/revision: "1"
-  creationTimestamp: "2020-01-23T13:08:50Z"
-  generation: 1
   labels:
     app: nginx
   name: nginx
   namespace: default
-  resourceVersion: "155739"
-  selfLink: /apis/apps/v1/namespaces/default/deployments/nginx
-  uid: 726a0815-2a97-46f4-a2cf-7da6761ddade
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
