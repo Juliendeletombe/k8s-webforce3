@@ -53,7 +53,7 @@
       <workItem from="1579786707749" duration="9354000" />
       <workItem from="1579796547981" duration="17764000" />
       <workItem from="1579879105659" duration="4185000" />
-      <workItem from="1580114519189" duration="1164000" />
+      <workItem from="1580114519189" duration="2832000" />
     </task>
     <task id="LOCAL-00001" summary=",,">
       <created>1579874062498</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580114531448</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=",,">
+      <created>1580115835070</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580115835070</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,10 +138,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="676" y="280" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579857990216" />
-    <state x="558" y="149" width="860" height="807" key="CommitChangelistDialog2" timestamp="1580114531247">
+    <state x="558" y="149" width="860" height="807" key="CommitChangelistDialog2" timestamp="1580115834950">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="558" y="149" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1580114531247" />
+    <state x="558" y="149" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1580115834950" />
     <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1579882769103">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

@@ -149,6 +149,14 @@
 # ls -alrt (voir dernier fichier dl)
 #tar -zxvf v3.4.0.tar.gz (dezip + decompression fichier)
 
+.....................
+
+#Helm (ensemble dscropt yaml permet de configurer mysql via kubernetes et ansible)
+
+
+
+
+
 
 
 
