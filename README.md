@@ -65,7 +65,7 @@
 # kubectl scale deployment hog --replicas=10 (dans l'exemple de notre stress test la ram est insuffissante)
 # j'ai donc remis 3 machine apres le test.
 
-# k delete deploy hog (destruction du deploiment , liberationd e la ram)
+# k delete deploy hog (destruction du deploiment , liberation de la ram)
 
 # Name spaces ## Namespaces
 
@@ -121,6 +121,25 @@
 #kubectl rollout undo deployment/frontend (undo permet de revenir a la version précedente)
 
 
+...................
+
+#       tp de couleur 
+
+# config map
+
+#k create configmap colors \
+# --from-literal=text=black \
+# --from-file=./favorite \
+# --from-file=./primary/
+
+#k create -f shell-demo.yaml
+
+#kubectl exec -it shell-demo \
+#k exec -it shell-demo -- /bin/bash -c 'echo $ilike'
+#k delete pod shell-demo
+# k create -f shell-demo.yaml
+# kubectl exec -it shell-demo -- /bin/bash -c 'env'
+# kubectl exec -it shell-demo -- /bin/bash -c 'ls -altr /etc/cars'
 
 
 
