@@ -141,6 +141,15 @@
 # kubectl exec -it shell-demo -- /bin/bash -c 'env'
 # kubectl exec -it shell-demo -- /bin/bash -c 'ls -altr /etc/cars'
 
+.....................
+
+#install go --classic (commande snap a la place de get)
+
+
+# ls -alrt (voir dernier fichier dl)
+#tar -zxvf v3.4.0.tar.gz (dezip + decompression fichier)
+
+
 
 
 
